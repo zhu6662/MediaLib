@@ -24,6 +24,10 @@ public class Song
         price = 0.0;
     }
     
+    public Song(String title){
+        this.title = title;
+    }
+    
     public Song(String title, double price) {
     this.title = title;
     this.price = price;
